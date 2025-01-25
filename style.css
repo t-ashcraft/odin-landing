@@ -1,0 +1,28 @@
+body {
+    font-family: "roboto";
+
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-end;
+    align-items: center;
+    gap: 12px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 24px;
+    padding-right:24px;
+    background-color:#1F2937;
+    color:#f9FaF8;
+
+}
+.header .logo {
+    margin-right:auto;
+    font-size:24px;
+}
+
+.section1 {
+    background-color:#1F2937;
+}
+

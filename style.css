@@ -37,6 +37,10 @@ body {
     background-color:#555;
     margin-right:48px;
     margin-left:24px;
+    text-align: center;
+    color:#bbb;
+    align-content: center;
+
 }
 
 .section1 .text {
@@ -72,4 +76,53 @@ body {
     min-width: 100px;
     font-weight:bold;
     margin-top:20px;
+}
+
+.section2 {
+    display:flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.section2 .title {
+    font-weight: 900;
+    font-size: 36px;
+    color:#1F2937;
+    margin:24px 12px;
+}
+
+.section2 .containers {
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.section2 .box {
+    width:150px;
+    height:150px;
+    outline:#3882F6;
+    border-radius: 12px;
+    background-color:#f9FaF8;
+    outline-width: 8px;
+    margin:10px;
+    outline-style: inset;
+
+}
+.section2 .container {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin:24px;
+}
+
+.section2 .caption {
+    margin:12px;
+    flex-shrink: 2;
+    max-width: 150px;
+    text-align: center;
 }

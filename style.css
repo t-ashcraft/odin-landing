@@ -126,3 +126,26 @@ body {
     max-width: 150px;
     text-align: center;
 }
+
+.section3 {
+    padding:50px;
+    background-color: #E5E7EB;
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.section3 .quote {
+    color:#1f2937;
+    font-size:36px;
+    font-style: italic;
+    font-weight: lighter;
+    max-width: 800px;
+}
+
+.section3 .author {
+    font-weight: bold;
+    text-align: end;
+}
+

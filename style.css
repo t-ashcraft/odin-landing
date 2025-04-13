@@ -1,6 +1,9 @@
 body {
     font-family: "roboto";
     margin:0;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .header {
@@ -149,3 +152,54 @@ body {
     text-align: end;
 }
 
+.section4 {
+    align-self:center;  
+    justify-self: center;
+    max-width: 1000px;
+}
+
+.section4 .cta{
+    padding:36px 72px;
+    align-self:center;
+    margin:50px;
+    background-color: #3882F6;
+    display:flex;
+    flex-direction: row;
+    border-radius: 12px;
+    
+    justify-self: center;
+}
+
+.section4 .text {
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-right:24px
+}
+
+.section4 .text .title {
+    color:#f9FaF8;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.section4 .text .subtext {
+    color:#f9FaF8;
+    font-size:18px;
+}
+
+.section4 button {
+    margin-left:auto;
+    background-color: #3882F6;
+    outline-color: #E5E7EB;
+    outline-width: 8px;
+    border-radius:8px;
+    color:#f9FaF8;
+    border:2px solid;
+    border-color: #E5E7EB;
+    height:36px;
+    max-width: 100px;
+    min-width: 100px;
+    font-weight:bold;
+    margin-top:12px;
+}
